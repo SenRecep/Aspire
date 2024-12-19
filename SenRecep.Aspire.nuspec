@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>SenRecep.Aspire</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <description>Aspire Microservice Starter is a template for creating a microservice with Aspire Framework.</description>
     <authors>SenRecep</authors>
     <title>Aspire Microservice Starter Dotnet Templates</title>
@@ -20,5 +20,7 @@
   </metadata>
   <files>
     <file src="**" exclude="**\bin\**\*;**\obj\**\*;**\*.user;**\*.lock.json;_rels\**\*;package\**\*" />
+    <file src=".gitignore" target="." />
+    <file src="source\.editorconfig" target="source" />
   </files>
 </package>
