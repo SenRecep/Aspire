@@ -10,6 +10,10 @@
     <license type="expression">MIT</license>
     <tags>dotnet aspire microservice template</tags>
     <language>en-US</language>
+    <readme>README.MD</readme>
+    <releaseNotes>Initial release of the Aspire Microservice Starter template.</releaseNotes>
+    <projectUrl>https://github.com/SenRecep/Aspire</projectUrl>
+    <repository type="git" url="https://github.com/SenRecep/Aspire.git" />
 	  <packageTypes>
       <packageType name="Template" />
     </packageTypes>
