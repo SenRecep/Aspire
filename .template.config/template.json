@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "senrecep",
+  "classifications": [ "aspire","api", "aspnetcore", "microservice"],
+  "identity": "aspire-microservice-starter",
+  "name": "Aspire Microservice Starter",
+  "shortName": "aspire-microservice-starter",
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  },
+  "sourceName": "CompanyName",
+  "description": "Aspire Microservice Starter is a template for creating a microservice with Aspire Framework."
+}

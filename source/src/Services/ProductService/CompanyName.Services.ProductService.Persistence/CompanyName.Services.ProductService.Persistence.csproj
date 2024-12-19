@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\BuildingBlocks\BackgroundJobs\CompanyName.BuildingBlocks.BackgroundJobs.Quartz\CompanyName.BuildingBlocks.BackgroundJobs.Quartz.csproj" />
+		<ProjectReference Include="..\..\..\BuildingBlocks\Caching\CompanyName.BuildingBlocks.Caching.Redis\CompanyName.BuildingBlocks.Caching.Redis.csproj" />
+		<ProjectReference Include="..\..\..\BuildingBlocks\Database\CompanyName.BuildingBlocks.Database.PostgreSQL\CompanyName.BuildingBlocks.Database.PostgreSQL.csproj" />
+		<ProjectReference Include="..\..\..\BuildingBlocks\Layers\Infrastructure\CompanyName.BuildingBlocks.Persistence\CompanyName.BuildingBlocks.Persistence.csproj" />
+		<ProjectReference Include="..\..\..\BuildingBlocks\MessageBrokers\CompanyName.BuildingBlocks.MessageBrokers.MassTransit\CompanyName.BuildingBlocks.MessageBrokers.MassTransit.csproj" />
+		<ProjectReference Include="..\..\..\Host\CompanyName.Services.Info\CompanyName.Services.Info.csproj" />
+		<ProjectReference Include="..\CompanyName.Services.ProductService.Application\CompanyName.Services.ProductService.Application.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="MassTransit.RabbitMQ" Version="8.3.3" />
+	</ItemGroup>
+</Project>

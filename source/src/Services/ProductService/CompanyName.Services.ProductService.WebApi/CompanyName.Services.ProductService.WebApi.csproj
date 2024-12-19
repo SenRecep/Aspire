@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+	<ItemGroup>
+		<PackageReference Include="Carter" Version="8.2.1" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\BuildingBlocks\Database\CompanyName.BuildingBlocks.Database.Migrator\CompanyName.BuildingBlocks.Database.Migrator.csproj" />
+		<ProjectReference Include="..\..\..\BuildingBlocks\Layers\Presentation\CompanyName.BuildingBlocks.Presentation\CompanyName.BuildingBlocks.Presentation.csproj" />
+		<ProjectReference Include="..\..\..\BuildingBlocks\OpenTelemetry\CompanyName.BuildingBlocks.OpenTelemetry.Base\CompanyName.BuildingBlocks.OpenTelemetry.Base.csproj" />
+		<ProjectReference Include="..\CompanyName.Services.ProductService.Persistence\CompanyName.Services.ProductService.Persistence.csproj" />
+	</ItemGroup>
+</Project>

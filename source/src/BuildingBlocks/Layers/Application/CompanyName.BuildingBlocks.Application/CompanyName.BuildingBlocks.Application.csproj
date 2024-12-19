@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\Caching\CompanyName.BuildingBlocks.Caching.Base\CompanyName.BuildingBlocks.Caching.Base.csproj" />
+		<ProjectReference Include="..\..\Domain\CompanyName.BuildingBlocks.Domain\CompanyName.BuildingBlocks.Domain.csproj" />
+		<ProjectReference Include="..\CompanyName.BuildingBlocks.Application.Shared\CompanyName.BuildingBlocks.Application.Shared.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.0" />
+		<PackageReference Include="MediatR" Version="12.4.1" />
+	</ItemGroup>
+</Project>

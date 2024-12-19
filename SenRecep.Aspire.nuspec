@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>SenRecep.Aspire</id>
+    <version>1.0.0</version>
+    <description>Aspire Microservice Starter is a template for creating a microservice with Aspire Framework.</description>
+    <authors>SenRecep</authors>
+    <title>Aspire Microservice Starter Dotnet Templates</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <tags>dotnet aspire microservice template</tags>
+    <language>en-US</language>
+	  <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file src="**" exclude="**\bin\**\*;**\obj\**\*;**\*.user;**\*.lock.json;_rels\**\*;package\**\*" />
+  </files>
+</package>
