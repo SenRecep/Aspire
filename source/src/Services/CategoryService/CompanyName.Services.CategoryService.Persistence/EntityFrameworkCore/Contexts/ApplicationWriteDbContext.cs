@@ -3,6 +3,7 @@ using CompanyName.BuildingBlocks.Database.PostgreSQL.Contexts;
 using CompanyName.Services.CategoryService.Domain.Categories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using CompanyName.BuildingBlocks.MessageBrokers.MassTransit.EntityFrameworkCore.Extensions;
 
 namespace CompanyName.Services.CategoryService.Persistence.EntityFrameworkCore.Contexts;
 public sealed class ApplicationWriteDbContext : WriteDbContextBase<ApplicationWriteDbContext>
@@ -18,6 +19,6 @@ public sealed class ApplicationWriteDbContext : WriteDbContextBase<ApplicationWr
     {
         base.OnModelCreating(modelBuilder);
         modelBuilder.ApplySoftDeleteQueryFilter();
-        // modelBuilder.AddMassTransitOutboxEntities();
+        modelBuilder.AddMassTransitOutboxEntities();
     }
 }
