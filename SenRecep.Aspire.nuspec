@@ -2,8 +2,9 @@
 <package>
   <metadata>
     <id>SenRecep.Aspire</id>
-    <version>1.0.1</version>
-    <description>Aspire Microservice Starter is a template for creating a microservice with Aspire Framework.</description>
+    <version>1.0.2</version>
+    <description>Aspire Microservice Starter is a template for creating a microservice with Aspire
+      Framework.</description>
     <authors>SenRecep</authors>
     <title>Aspire Microservice Starter Dotnet Templates</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -14,13 +15,12 @@
     <releaseNotes>Initial release of the Aspire Microservice Starter template.</releaseNotes>
     <projectUrl>https://github.com/SenRecep/Aspire</projectUrl>
     <repository type="git" url="https://github.com/SenRecep/Aspire.git" />
-	  <packageTypes>
+    <packageTypes>
       <packageType name="Template" />
     </packageTypes>
   </metadata>
   <files>
-    <file src="**" exclude="**\bin\**\*;**\obj\**\*;**\*.user;**\*.lock.json;_rels\**\*;package\**\*" />
-    <file src=".gitignore" target="." />
-    <file src="source\.editorconfig" target="source" />
+    <file src="**"
+      exclude="**\bin\**\*;**\obj\**\*;**\*.user;**\*.lock.json;_rels\**\*;package\**\*;**\.git\**\*;**\.template.config\**\*" />
   </files>
 </package>
