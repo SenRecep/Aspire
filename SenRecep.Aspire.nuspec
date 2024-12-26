@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>SenRecep.Aspire</id>
-    <version>1.0.3</version>
+    <version>1.0.5</version>
     <description>Aspire Microservice Starter is a template for creating a microservice with Aspire
       Framework.</description>
     <authors>SenRecep</authors>
