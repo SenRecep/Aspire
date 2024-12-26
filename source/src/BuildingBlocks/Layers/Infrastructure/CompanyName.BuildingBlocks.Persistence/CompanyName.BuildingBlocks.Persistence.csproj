@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
-    <PackageReference Include="Refit.HttpClientFactory" Version="8.0.0" />
+    <PackageReference Include="Refit.HttpClientFactory"/>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Caching\CompanyName.BuildingBlocks.Caching.Redis\CompanyName.BuildingBlocks.Caching.Redis.csproj" />

@@ -9,6 +9,6 @@
 		<ProjectReference Include="..\CompanyName.Services.ProductService.Application\CompanyName.Services.ProductService.Application.csproj" />
 	</ItemGroup>
 	<ItemGroup>
-	  <PackageReference Include="MassTransit.RabbitMQ" Version="8.3.3" />
+	  <PackageReference Include="MassTransit.RabbitMQ" />
 	</ItemGroup>
 </Project>

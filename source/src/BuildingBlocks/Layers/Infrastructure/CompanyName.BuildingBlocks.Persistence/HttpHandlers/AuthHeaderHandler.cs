@@ -10,10 +10,10 @@ public sealed class AuthHeaderHandler(
     protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
     {
         Maybe<string> accessToken = sessionContext.AccessToken;
-        Maybe<string> tanentId = sessionContext.TenantId;
+        Maybe<string> tenantId = sessionContext.TenantId;
 
         accessToken.Execute(token => request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token));
-        tanentId.Execute(tenantId => request.Headers.Add(CustomHeaderNames.TenantId, tenantId));
+        tenantId.Execute(tenantId => request.Headers.Add(CustomHeaderNames.TenantId, tenantId));
 
         return base.SendAsync(request, cancellationToken);
     }

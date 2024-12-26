@@ -1,5 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
-    <PackageReference Include="CSharpEssentials" Version="1.0.18" />
+    <PackageReference Include="CSharpEssentials"/>
   </ItemGroup>
 </Project>

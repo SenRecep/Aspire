@@ -5,8 +5,8 @@
 		<ProjectReference Include="..\CompanyName.BuildingBlocks.Application.Shared\CompanyName.BuildingBlocks.Application.Shared.csproj" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.0" />
-		<PackageReference Include="MediatR" Version="12.4.1" />
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions"/>
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions"/>
+		<PackageReference Include="MediatR"  />
 	</ItemGroup>
 </Project>
