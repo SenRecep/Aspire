@@ -1,5 +1,10 @@
 # Aspire Microservice Starter
 
+[![NuGet](https://img.shields.io/nuget/v/SenRecep.Aspire.svg)](https://www.nuget.org/packages/SenRecep.Aspire)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/SenRecep.Aspire.svg)](https://www.nuget.org/packages/SenRecep.Aspire)
+[![GitHub](https://img.shields.io/github/license/SenRecep/Aspire)](https://github.com/SenRecep/Aspire)
+[![GitHub Stars](https://img.shields.io/github/stars/SenRecep/Aspire)](https://github.com/SenRecep/Aspire)
+
 A modern, production-ready microservices template built with .NET Aspire 9.0. This template provides a robust foundation for building scalable, maintainable, and cloud-ready microservices applications.
 
 ## Features
