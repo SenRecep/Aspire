@@ -2,17 +2,16 @@
 <package>
   <metadata>
     <id>SenRecep.Aspire</id>
-    <version>1.0.5</version>
-    <description>Aspire Microservice Starter is a template for creating a microservice with Aspire
-      Framework.</description>
+    <version>1.0.6</version>
+    <description>A modern, production-ready microservices template built with .NET Aspire 9.0. Features include Domain-Driven Design (DDD), Clean Architecture, PostgreSQL, Redis, RabbitMQ, Keycloak, OpenTelemetry, and comprehensive development tools for building scalable cloud-native applications.</description>
     <authors>SenRecep</authors>
-    <title>Aspire Microservice Starter Dotnet Templates</title>
+    <title>Modern .NET Aspire Microservice Starter Template</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
-    <tags>dotnet aspire microservice template</tags>
+    <tags>dotnet aspire microservice template ddd clean-architecture postgresql redis rabbitmq keycloak opentelemetry cloud-native</tags>
     <language>en-US</language>
     <readme>README.MD</readme>
-    <releaseNotes>Initial release of the Aspire Microservice Starter template.</releaseNotes>
+    <releaseNotes>Comprehensive microservice template with .NET Aspire 9.0, featuring DDD, Clean Architecture, and modern cloud-native infrastructure components.</releaseNotes>
     <projectUrl>https://github.com/SenRecep/Aspire</projectUrl>
     <repository type="git" url="https://github.com/SenRecep/Aspire.git" />
     <packageTypes>

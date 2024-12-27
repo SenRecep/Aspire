@@ -111,3 +111,21 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🔍 Related Projects
+
+### CSharpEssentials
+
+[CSharpEssentials](https://github.com/SenRecep/CSharpEssentials) is a comprehensive library that enhances C#'s functional programming capabilities. It provides a robust set of tools and utilities designed to make your C# applications more maintainable, testable, and aligned with functional programming principles.
+
+Key features:
+
+- Functional Programming Essentials (Maybe Monad, Result Pattern, Discriminated Unions)
+- Domain Modeling Tools (Rule Engine, Error Types, Entity Base)
+- ASP.NET Core Integration
+- Entity Framework Core Integration
+- Request/Response Logging
+- Enhanced JSON capabilities
+- Time Management utilities
+
+This library complements the Aspire Microservice Starter by providing additional functional programming patterns and utilities that can be used to build more robust and maintainable microservices.

@@ -1,14 +1,25 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "senrecep",
-  "classifications": [ "aspire","api", "aspnetcore", "microservice"],
+  "classifications": [
+    "aspire",
+    "api",
+    "aspnetcore",
+    "microservice",
+    "clean-architecture",
+    "ddd",
+    "cloud-native"
+  ],
   "identity": "aspire-microservice-starter",
   "name": "Aspire Microservice Starter",
   "shortName": "aspire-microservice-starter",
   "tags": {
     "language": "C#",
-    "type": "solution"
+    "type": "solution",
+    "platform": ".NET 9",
+    "architecture": "microservices",
+    "features": "ddd,clean-architecture,postgresql,redis,rabbitmq,keycloak,opentelemetry"
   },
   "sourceName": "CompanyName",
-  "description": "Aspire Microservice Starter is a template for creating a microservice with Aspire Framework."
+  "description": "A modern, production-ready microservices template built with .NET Aspire 9.0. Features include DDD, Clean Architecture, PostgreSQL, Redis, RabbitMQ, Keycloak, OpenTelemetry, and more for building scalable cloud-native applications."
 }
