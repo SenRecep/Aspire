@@ -67,7 +67,9 @@ dotnet new install SenRecep.Aspire
 2. Create a new project:
 
 ```bash
-dotnet new aspire-microservice -n YourCompanyName
+mkdir YourProjectName
+cd YourProjectName
+dotnet new aspire-microservice-starter -n YourProjectName
 ```
 
 ## Getting Started
@@ -77,7 +79,7 @@ dotnet new aspire-microservice -n YourCompanyName
 3. Run the application:
 
 ```bash
-cd source/src/Host/CompanyName.AppHost
+cd source/src/Host/YourProjectName.AppHost
 dotnet run
 ```
 

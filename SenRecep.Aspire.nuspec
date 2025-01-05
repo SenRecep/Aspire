@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>SenRecep.Aspire</id>
-    <version>1.0.6</version>
+    <version>1.0.8</version>
     <description>A modern, production-ready microservices template built with .NET Aspire 9.0. Features include Domain-Driven Design (DDD), Clean Architecture, PostgreSQL, Redis, RabbitMQ, Keycloak, OpenTelemetry, and comprehensive development tools for building scalable cloud-native applications.</description>
     <authors>SenRecep</authors>
     <title>Modern .NET Aspire Microservice Starter Template</title>
@@ -17,9 +17,10 @@
     <packageTypes>
       <packageType name="Template" />
     </packageTypes>
+    <icon>icon.png</icon>
   </metadata>
   <files>
     <file src="**"
-      exclude="**\bin\**\*;**\obj\**\*;**\*.user;**\*.lock.json;_rels\**\*;package\**\*;**\.git\**\*;**\.template.config\**\*;SenRecep.Aspire.nuspec" />
+      exclude="**\bin\**\*;**\obj\**\*;**\*.user;**\*.lock.json;_rels\**\*;package\**\*;**\.git\**\*;SenRecep.Aspire.nuspec" />
   </files>
 </package>
