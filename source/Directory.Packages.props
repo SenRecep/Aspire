@@ -89,7 +89,7 @@
     <ItemGroup Label="APIs">
         <PackageVersion Include="Carter" Version="8.2.1" />
         <PackageVersion Include="Refit.HttpClientFactory" Version="8.0.0" />
-        <PackageVersion Include="CSharpEssentials.RequestResponseLogging" Version="1.0.3" />
+        <PackageVersion Include="CSharpEssentials.RequestResponseLogging" Version="1.0.4" />
         <PackageVersion Include="CSharpEssentials.AspNetCore" Version="1.0.13" />
     </ItemGroup>
 
