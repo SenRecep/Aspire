@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>SenRecep.Aspire</id>
-    <version>1.0.10</version>
+    <version>1.0.11</version>
     <description>A modern, production-ready microservices template built with .NET Aspire 9.0. Features include Domain-Driven Design (DDD), Clean Architecture, PostgreSQL, Redis, RabbitMQ, Keycloak, OpenTelemetry, and comprehensive development tools for building scalable cloud-native applications.</description>
     <authors>SenRecep</authors>
     <title>Modern .NET Aspire Microservice Starter Template</title>
