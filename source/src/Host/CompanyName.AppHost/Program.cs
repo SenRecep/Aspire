@@ -46,7 +46,7 @@ IResourceBuilder<RabbitMQServerResource> rabbitmq = builder
     .WithLifetime(ContainerLifetime.Persistent)
     .WithHealthCheck()
     .WithDataVolume()
-    .WithManagementPlugin(port: 15672);
+    .WithManagementPlugin();
 
 
 IResourceBuilder<PostgresDatabaseResource> productServicePostgresDatabase = postgres.AddDatabase(pgProductServiceDb);
@@ -54,11 +54,8 @@ IResourceBuilder<ProjectResource> productService = builder
     .AddProject<Projects.CompanyName_Services_ProductService_WebApi>(productServiceKey)
     .WithHttpHealthCheck("/health")
     .WithReference(seq)
-    .WaitFor(seq)
     .WithReference(cache)
-    .WaitFor(cache)
     .WithReference(rabbitmq)
-    .WaitFor(rabbitmq)
     .WithReference(productServicePostgresDatabase)
     .WaitFor(productServicePostgresDatabase)
     .WithReference(keycloak)
@@ -69,11 +66,8 @@ IResourceBuilder<ProjectResource> categoryService = builder
     .AddProject<Projects.CompanyName_Services_CategoryService_WebApi>(categoryServiceKey)
     .WithHttpHealthCheck("/health")
     .WithReference(seq)
-    .WaitFor(seq)
     .WithReference(cache)
-    .WaitFor(cache)
     .WithReference(rabbitmq)
-    .WaitFor(rabbitmq)
     .WithReference(categoryServicePostgresDatabase)
     .WaitFor(categoryServicePostgresDatabase)
     .WithReference(keycloak)
